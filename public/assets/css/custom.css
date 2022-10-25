@@ -87,3 +87,72 @@ button:focus {
     height: 200px;
     border-bottom: 1px solid lightgray;
 }
+
+/* Dark mode custom css */
+.dark-mode .form-control,
+.dark-mode .dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dark-mode .dataTables_filter,
+.dark-mode .input-group-append>.btn,
+.dark-mode .dataTables_wrapper .dataTables_paginate .input-group-append>.paginate_button,
+.dataTables_wrapper .dataTables_paginate .dark-mode .input-group-append>.paginate_button,
+.dark-mode .custom-select {
+    border-color: #3d4559 !important;
+    color: #a4a4a4 !important;
+}
+
+.dark-mode .form-control::placeholder,
+.dark-mode .dataTables_wrapper .dataTables_filter::placeholder,
+.dataTables_wrapper .dark-mode .dataTables_filter::placeholder,
+.dark-mode .input-group-append>.btn::placeholder,
+.dark-mode .dataTables_wrapper .dataTables_paginate .input-group-append>.paginate_button::placeholder,
+.dataTables_wrapper .dataTables_paginate .dark-mode .input-group-append>.paginate_button::placeholder,
+.dark-mode .custom-select {
+    color: #7f7d7d !important;
+}
+
+.dark-mode .form-control,
+.dark-mode .dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dark-mode .dataTables_filter,
+.dark-mode .input-group-append>.btn,
+.dark-mode .dataTables_wrapper .dataTables_paginate .input-group-append>.paginate_button,
+.dataTables_wrapper .dataTables_paginate .dark-mode .input-group-append>.paginate_button,
+.dark-mode .custom-select {
+    border-color: #3d4559 !important;
+    color: #a4a4a4 !important;
+    background: #2a3244;
+}
+
+select.form-control.dark-from.show-tick {
+    background: #2f3647;
+}
+
+.form-control,
+.dataTables_wrapper .dataTables_filter {
+    border-color: #d7d7d7;
+}
+
+.dark-mode .custom-file-label::after {
+    line-height: 1.5;
+    color: #767a7e;
+    background-color: #353d4f;
+}
+
+.dark-mode .custom-control-label::before,
+.dark-mode .custom-file-label,
+.dark-mode .custom-select {
+    background: #2a3244;
+    border: 1px solid #3d4559;
+}
+
+.dark-mode .bootstrap-tagsinput {
+    color: white !important;
+    background: #2a3244 !important;
+    border: 1px solid #3d4559 !important;
+    padding: 7px !important;
+}
+
+.modal-header .close span {
+    text-shadow: none;
+    font-size: 28px;
+    color: red;
+}

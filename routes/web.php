@@ -55,7 +55,7 @@ Route::post('ck-image-upload', function(){
     $url=  imageUploader(request()->upload,$path,$isUrl = true);
     $CKEditorFuncNum = request()->input('CKEditorFuncNum');
     return response()->json(['fileName' => basename($url), 'uploaded'=> 1, 'url' => $url]);
-})->name('ck-image-upload')->middleware('admin');
+})->name('ck-image-upload')->middleware('admin')->withoutMiddleware([\App\Http\Middleware\VerifyCsrfToken::class]);
 
 
 Route::view('/', 'web.home')->name('home');

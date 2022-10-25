@@ -32,7 +32,7 @@ $user = auth()->user();
     <div id="rightsidebar" class="right_sidebar">
         <a href="javascript:void(0)" class="p-3 settingbar float-right"><i class="fa fa-close"></i></a>
         <div class="p-4">
-            <div class="mb-4">
+            <!-- <div class="mb-4">
                 <h6 class="font-14 font-weight-bold text-muted">Font Style</h6>
                 <div class="custom-controls-stacked font_setting">
                     <label class="custom-control custom-radio custom-control-inline">
@@ -48,9 +48,7 @@ $user = auth()->user();
                         <span class="custom-control-label">Robot Google Font</span>
                     </label>
                 </div>
-            </div>
-            <hr>
-            <hr>
+            </div> -->
             <div>
                 <h6 class="font-14 font-weight-bold mt-4 text-muted">General Settings</h6>
                 <ul class="setting-list list-unstyled mt-1 setting_switch">

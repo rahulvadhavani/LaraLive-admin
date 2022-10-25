@@ -89,6 +89,11 @@ if(sidebar_dark){
     $('body').addClass(sidebar_dark);
     $(".setting_switch .btn-sidebar").prop('checked',true);
 }
+let mini_sidebar_dark = localStorage.getItem('dark');
+if(mini_sidebar_dark){
+    $('#header_top').addClass(mini_sidebar_dark);
+    $(".setting_switch .btn-min_sidebar").prop('checked',true);
+}
 let iconcolor = localStorage.getItem('iconcolor');
 if(iconcolor){
     $('body').addClass(iconcolor);

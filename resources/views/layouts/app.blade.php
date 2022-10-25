@@ -69,7 +69,7 @@ $user = auth()->user();
                     <li>
                         <label class="custom-switch">
                             <span class="custom-switch-description">Header Dark</span>
-                            <input type="checkbox" name="custom-switch-checkbox" data-id="top_dark" class="custom-switch-input btn-pageheader" checked="">
+                            <input type="checkbox" name="custom-switch-checkbox" data-id="top_dark" class="custom-switch-input btn-pageheader">
                             <span class="custom-switch-indicator"></span>
                         </label>
                     </li>
@@ -150,7 +150,7 @@ $user = auth()->user();
     </div>
     @include('layouts.sidebar')
     <div class="page">
-        <div id="page_top" class="section-body top_dark">
+        <div id="page_top" class="section-body">
             <div class="container-fluid">
                 <div class="page-header">
                     <div class="left">

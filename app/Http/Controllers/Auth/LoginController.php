@@ -58,8 +58,7 @@ class LoginController extends Controller
     }
     public function showLoginForm()
     {
-        $logoImg = Setting::where('key','logo_image')->first()->value; 
-        $logo = (isset($logoImg) && $logoImg != "") ? asset('uploads/'.$logoImg) : "";
+        $logo = getSettings('logo_image');
         return view('auth.login',compact('logo'));
     }
 }

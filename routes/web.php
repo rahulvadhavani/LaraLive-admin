@@ -5,13 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Admin\{Profile,Dashboard, Resume, Settings};
 use App\Http\Livewire\Admin\Category\{Category};
 use App\Http\Livewire\Admin\Blog\Blogs;
-use App\Http\Livewire\Admin\Project\Projects;
-use App\Http\Livewire\Admin\Service\Services;
-use App\Http\Livewire\Admin\Skill\Skills;
-use App\Http\Livewire\Admin\Testmonial\Testmonials;
-use App\Http\Livewire\Admin\Newsletter\Newsletters;
 use App\Http\Controllers\Auth\LoginController;
-use App\Http\Livewire\Admin\Contact\ContactRequests;
 use Illuminate\Support\Facades\Artisan;
 
 /*

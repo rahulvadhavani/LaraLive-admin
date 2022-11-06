@@ -55,7 +55,7 @@ return [
     */
 
     // 'asset_url' => null,
-    'asset_url' => env('ASSET_URL', 'http://localhost/rv-dev/public'),
+    'asset_url' => env('ASSET_URL', config('app.url')),
     
     /*
     |--------------------------------------------------------------------------
